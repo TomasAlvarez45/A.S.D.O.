@@ -285,6 +285,7 @@ ul{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
     margin-top: 90px;
+    padding: 30px;
 }
 .container-form h2{
     margin-bottom: 15px;
@@ -295,6 +296,8 @@ ul{
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 30px;
+    text-align: justify;
+    padding-left: 30px;
 }
 .container-form a{
     font-size: 17px;
@@ -321,7 +324,7 @@ ul{
 }
 .container-form form textarea{
     max-width: 600px;
-    min-width: 530px;
+    min-width: 300px;
     min-height: 140px;
     max-height: 150px;
 }
@@ -338,6 +341,11 @@ ul{
     font-weight: 800;
     font-family: "Nunito", sans-serif;
 }
+
+.info-form{
+    padding-right: 60px;
+}
+
 .container-form .btn-enviar:hover{
     background: #0664f0;
     font-size: 20px;
@@ -345,4 +353,18 @@ ul{
 
 .container-form form{
     margin-top: 70px;
+    padding-right: 20%;
+}
+
+@media (max-width: 1200px){
+    .container-form{
+        display: list-item;
+    }
+
+    .container-form .btn-enviar{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
 }

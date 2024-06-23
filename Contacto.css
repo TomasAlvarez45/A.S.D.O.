@@ -219,6 +219,7 @@ ul{
     text-align: justify;
     width: 80%;
     margin-left: 150px;
+    padding: 30px;
 
 }
 
@@ -285,6 +286,11 @@ ul{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
     margin-top: 90px;
+    padding: 30px;
+}
+
+.info-form{
+    padding-right: 60px;
 }
 .container-form h2{
     margin-bottom: 15px;
@@ -295,6 +301,7 @@ ul{
     font-size: 17px;
     line-height: 1.6;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .container-form a{
     font-size: 17px;
@@ -321,7 +328,7 @@ ul{
 }
 .container-form form textarea{
     max-width: 600px;
-    min-width: 530px;
+    min-width: 300px;
     min-height: 140px;
     max-height: 150px;
 }
@@ -345,6 +352,7 @@ ul{
 
 .container-form form{
     margin-top: 40px;
+    padding-right: 20%;
 }
 
 @media (max-width: 1200px){
