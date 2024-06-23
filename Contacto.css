@@ -346,3 +346,10 @@ ul{
 .container-form form{
     margin-top: 40px;
 }
+
+@media (max-width: 1200px){
+    .container-form{
+        display: list-item;
+    }
+
+}

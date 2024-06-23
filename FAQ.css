@@ -306,4 +306,93 @@ ul{
     .navbar {
         display: none;
     }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Temas{
+        font-style: italic;
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #fff;
+        justify-content: left;
+        margin-top: 0px;
+        text-align: left;
+        margin-left: 10%;
+    
+    
+    }
+    
+    .Q {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #ffffff;
+        justify-content: left;
+        margin-top: 30px;
+        text-align: left;
+        margin-left: 10%;
+    
+    }
+    
+    .BTemas{
+        font-style: italic;
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #000000;
+        justify-content: left;
+        margin-top: 0px;
+        text-align: left;
+        margin-left: 10%;
+    
+    }
+    
+    .BQ {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #000000;
+        justify-content: left;
+        margin-top: 30px;
+        text-align: left;
+        margin-left: 10%;
+    
+    }
+    
+    .BA{
+        font-size: 20px;
+        margin-top: 5px;
+        color: #000000;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    
+    }
+    
+    .titleinicio{
+        margin-top: 40px;
+        font-size: 60px;
+        font-weight: 1000;
+        text-transform: uppercase;
+        color: #000000;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    
+    
+    
+    .A{
+        font-size: 20px;
+        margin-top: 5px;
+        color: #fff;
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+    
+    }
+    
 }
