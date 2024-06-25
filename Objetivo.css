@@ -12,7 +12,6 @@ body{
     font-family: "Varela Round", sans-serif;
     font-weight: 600;
     font-style: normal;
-    text-align: center;
 }
 
 
@@ -59,6 +58,22 @@ ul{
 
 }
 
+/*
+
+.navbar a{
+    display:block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar a:hover{
+    background: #3f3f3f;
+}
+*/
 .navbar a{
     text-decoration: none;
     text-transform: uppercase;
@@ -100,6 +115,7 @@ ul{
 
     transition: 0.4s ease;
 }
+
 
 .menuinicio li  a .text-item{
     width: 100%;
@@ -156,114 +172,29 @@ ul{
     width: 100%;
 }
 
-
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.title{
+    font-size: 60px;
 }
 
-.Temas{
-    font-style: italic;
-    font-size: 40px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #000000;
-    justify-content: left;
-    margin-top: 0px;
-    text-align: left;
-    margin-left: 100px;
-
+.header-title{
+    padding: 40px;
+    text-align: center;
 }
 
-.Q {
-    font-style: italic;
-    font-size: 40px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #000000;
-    justify-content: left;
-    text-align: left;
-    margin-left: 5%;
-
-}
-
-.A{
+.parrafo{
     font-size: 20px;
-    margin-top: 20px;
-    color: #000000;
     text-align: justify;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 2%;
-
 }
 
-.titleinicio{
-    margin-top: 40px;
-    font-size: 80px;
-    font-weight: 1000;
-    text-transform: uppercase;
-    color: #000000;
-    align-items: center;
-    margin-bottom: 40px;
+.header-text{
+    padding: 0px  80px;
 }
 
-.Objetivo{
-    background-color: rgb(0, 106, 206);
+.header-subtitle{
+    padding: 40px;
 }
 
-.imagenes{
-  background-color: #29aae1;
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-}
-
-.swiffy-slider{
-  max-width: 50%;
-  min-width: 300px;
-}
-
-.slider-container{
-  border-radius: 2rem;
-}
-
-.text-container{
-  padding: 20px;
-}
-
-.text-container h2{
-  color: #fff;
-}
-
-.text-container p{
-  color: #fff;
-}
-
-
-.Q-S{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 30px;
-}
-
-
-
-
-@media (max-width: 768px){
-    .titleinicio{
-        margin-bottom: 0;
-        font-size: 60px;
-    }
-    .sau{
-        height: 100vh;
-    }
-
-    .navbar {
-        display: none;
-    }
+.subtitle{
+    font-size: 30px;
 }
 
