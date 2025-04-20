@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+
+body{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: top;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    width: 100%;
+    background: #171717;
+
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    list-style: none;
+}
+
+.logasdo{
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    position: absolute;
+    top: -25px;
+
+
+    transition: 0.4s ease;
+}
+
+.logasdo:hover{
+    background: #3f3f3f;
+    border-radius: 5rem;
+    width: 100px;
+    height: 100px;
+    top: -25px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;  
+}
+
+.menuinicio{
+    width: 1000px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menuinicio li{
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 1px solid #363636;
+    position: relative;
+}
+
+.menuinicio .primero{
+    border-left: 1px solid #363636;
+}
+
+.menuinicio li a{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.menuinicio .gifs{
+    position: absolute;
+    max-width: 100%;
+    bottom: 0;
+    right: 10px;
+    width: 0%;
+    z-index: 20;
+
+    transition: 0.4s ease;
+}
+
+.menuinicio li  a .text-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    top: 0%;
+    position: absolute;
+
+    z-index: 10;
+
+    transition: all 400ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+    transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+}
+
+.menuinicio li a .down-item{
+    width: 100%;
+    height: 100%;
+    background: #171717;
+    position: absolute;
+    top: 0%;
+
+    transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+
+}
+
+.menuinicio li a .top-item{
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0%;
+
+    transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+
+}
+
+.menuinicio li:hover .down-item, .menuinicio li:hover .text-item{
+    top:100%;
+    height: 115%;
+}
+
+.menuinicio li:hover .gifs{
+    width: 30%;
+    right: 35%;
+}
+
+.menuinicio li:hover a .top-item{
+    width: 100%;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Temas{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000000;
+    justify-content: left;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 100px;
+
+}
+
+.Q {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000000;
+    justify-content: left;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+.A{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000000;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+
+}
+
+.Objetivo{
+    background-color: rgb(0, 106, 206);
+}
+
+.imagenes{
+  background-color: #29aae1;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.imagen{
+    margin: -1.6%;
+}
+
+.text-container{
+  padding: 20px;
+}
+
+.text-container h2{
+  color: #fff;
+}
+
+.text-container p{
+  color: #fff;
+}
+
+.vision{
+    background-color: #32CD32;
+}
+
+
+
+.Q-S{
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  background-image: url(./asdoweb/Fondos/fondo\ nosotros.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.general-container{
+  max-width: 50%;
+}
+
+
+
+@media (max-width: 768px){
+    .titleinicio{
+        margin-bottom: 0;
+        font-size: 60px;
+    }
+    .sau{
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+@media (min-width:1930px) { 
+
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        background: #171717;
+        position: top;
+        width: 100%;
+        z-index: 100;
+    }
+    
+    .logasdo{
+        height: 90px;
+        width: 90px;
+        margin: 30px;
+        position: absolute;
+        top: -25px;
+    
+    
+        transition: 0.4s ease;
+    }
+    
+    .logasdo:hover{
+        background: #3f3f3f;
+        border-radius: 5rem;
+        width: 130px;
+        height: 130px;
+        top: -25px;
+    
+    }
+
+    .menuinicio li a{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+
+    .content-text{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+        align-items: center;
+        padding: 20px;
+        color: white;
+        backdrop-filter: blur(100px);
+        border-radius: 30px;
+    }
+
+    .menuinicio{
+        width: 1000px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    .menuinicio .gifs{
+        position: absolute;
+        max-width: 200%;
+        bottom: 8%;
+        right: 10px;
+        width: 0%;
+        z-index: 20;
+    
+        transition: 0.4s ease;
+    }
+
+    .menuinicio li:hover .gifs{
+        width: 45%;
+        right: 27%;
+    }
+
+    .Q {
+        font-style: italic;
+        font-size: 45px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #000000;
+        justify-content: left;
+        text-align: left;
+        margin-left: 5%;
+    
+    }
+    
+    .A{
+        font-size: 27px;
+        margin-top: 20px;
+        color: #000000;
+        text-align: justify;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 2%;
+    
+    }
+}
